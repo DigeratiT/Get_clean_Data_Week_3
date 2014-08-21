@@ -47,3 +47,12 @@ Subject_test and Subject_train are combined into subject dataset.
     d. Various mean and std features following. 
 
 4. Final step transforms combine_mean dataset into a combined_tbl table, and then the average of each variable for each activity and each subject is calculated. The result is saved as final_mean.txt, using comma (",") as separator.
+
+
+Files attached:
+
+1. run_analysis.R - R script performing all the operations.
+2. final_mean.txt - the result dataset 
+3. getdata_projectfiles_UCI HAR Dataset.zip - the initial downloaded zip file containing original data.
+4. Readme.md - basic information about the script
+5. Codebook.md - more detailed information on the operations performed and datasets
